@@ -1,8 +1,8 @@
 var spelerAanZet = 2;
 
 
-function neerzetten() {
-  var mijnblokje = document.getElementById("blokje1");
+function neerzetten( blokjesnummer ) {
+  var mijnblokje = document.getElementById("blokje" + blokjesnummer);
   if( spelerAanZet == 1 ) {
      mijnblokje.innerHTML = "O";
      spelerAanZet = 2;
