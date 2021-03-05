@@ -1,3 +1,9 @@
+body {
+  margin: 60px auto;
+  max-width: 800px;
+  text-align: center;
+}
+
 div {
   background-color: green;
   color: white;
