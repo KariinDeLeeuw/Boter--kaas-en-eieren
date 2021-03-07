@@ -4,12 +4,28 @@ body {
   text-align: center;
 }
 
+h1,
+h2,
+p {
+  color: #edb1f1;
+}
+
 div {
-  background-color: green;
-  color: white;
-  border: 3px solid red;
+  background-color: #8ef6e4;
+  color: #d59bf6;
+  border: 2px solid #9896f1;
   display: inline-block;
   width: 120px;
   height: 120px;
   font-size: 60px;
+  margin: 1px;
+}
+
+p {
+  margin-top: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: #9896f1;
 }
