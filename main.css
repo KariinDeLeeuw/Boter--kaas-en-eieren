@@ -1,7 +1,12 @@
 body {
   margin: 30px auto;
   text-align: center;
-  background-color: #f5f2fe;
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(230, 203, 213, 1) 100%
+  );
 }
 
 h1,
