@@ -1,5 +1,5 @@
 body {
-  margin: 60px auto;
+  margin: 30px auto;
   text-align: center;
   background-color: #f5f2fe;
 }
@@ -17,16 +17,13 @@ div {
   display: inline-block;
   width: 120px;
   height: 120px;
-  font-size: 60px;
+  font-size: 50px;
   margin-top: 3px;
 }
 
 div:hover {
   cursor: pointer;
-}
-
-p {
-  margin-top: 0px;
+  background-color: #7cd6c5;
 }
 
 a {
