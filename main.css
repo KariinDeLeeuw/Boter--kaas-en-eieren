@@ -15,17 +15,6 @@ p {
   color: #e7a0ec;
 }
 
-/* div {
-  background-color: #8ef6e4;
-  color: #d59bf6;
-  border: 2px solid #9896f1;
-  display: inline-block;
-  width: 120px;
-  height: 120px;
-  font-size: 50px;
-  margin-top: 3px;
-} */
-
 ul.game {
   margin: 0;
   padding: 0;
@@ -45,8 +34,8 @@ ul.game li {
   width: 31.5%;
   cursor: pointer;
   border: 2px solid #9896f1;
-  margin-top: 3px;
-  font-size: 80px;
+  /* margin-top: 3px; */
+  font-size: 100px;
   text-align: center;
 }
 
@@ -58,10 +47,6 @@ ul.game li:hover {
 a {
   text-decoration: none;
   color: #9896f1;
-}
-
-footer {
-  margin-top: -10px;
 }
 
 @media only screen and (max-width: 400px) {
