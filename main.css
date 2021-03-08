@@ -16,7 +16,6 @@ p {
 }
 
 ul.game {
-  margin: 0;
   padding: 0;
   width: 365px;
   height: 365px;
@@ -24,24 +23,19 @@ ul.game {
 }
 
 ul.game li {
-  margin: 0;
-  padding: 0;
   list-style: none;
   background-color: #8ef6e4;
   color: #d59bf6;
   display: inline-block;
   height: 31.5%;
-  width: 31.5%;
+  width: calc(33.33% - 13px);
   cursor: pointer;
   border: 2px solid #9896f1;
-  /* margin-top: 3px; */
   font-size: 100px;
   text-align: center;
-}
-
-ul.game li:hover {
-  cursor: pointer;
-  background-color: #7cd6c5;
+  vertical-align: middle;
+  margin: 5px;
+  box-sizing: border-box;
 }
 
 a {
