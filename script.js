@@ -1,7 +1,6 @@
 let spelerAanZet = 2;
 let header = document.querySelector("h1");
 
-
 function neerzetten( blokjesnummer ) {
   var mijnBlokje = document.getElementById("blokje" + blokjesnummer);
   var inhoudElement = mijnBlokje.innerHTML;
@@ -53,6 +52,7 @@ document.getElementById("blokje3").innerHTML == "✕"
  && document.getElementById("blokje7").innerHTML == "✕")
  {
    header.innerHTML = "🥳 ✕ is the winner!";
+   alert("🥳 ✕ is the winner!");
 
   //  ❍ is the winner
  } else if(document.getElementById("blokje1").innerHTML == "❍"
@@ -87,6 +87,7 @@ document.getElementById("blokje3").innerHTML == "❍"
  && document.getElementById("blokje5").innerHTML == "❍"
  && document.getElementById("blokje7").innerHTML == "❍"){
   header.innerHTML = "🥳 ❍ is the winner!";
+  alert("🥳 ❍ is the winner!");
  }
 }
   
