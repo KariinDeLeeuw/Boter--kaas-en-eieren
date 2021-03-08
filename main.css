@@ -52,4 +52,8 @@ a {
     width: 350px;
     height: 350px;
   }
+
+  ul.game li {
+    font-size: 100px;
+  }
 }
