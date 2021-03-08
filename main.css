@@ -48,9 +48,8 @@ a {
     font-size: 26px;
   }
 
-  div {
-    width: 70px;
-    height: 70px;
-    font-size: 50px;
+  ul.game {
+    width: 350px;
+    height: 350px;
   }
 }
